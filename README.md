@@ -121,7 +121,7 @@ The left panel shows the camera as the memory receives it. The right panel shows
 
 Point the camera at the room, walk out, bring an object back and press SPACE.
 
-![demo](results/demo_headless.png)
+![pic](pic.png)
 
 ## Map
 
