@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/sihtimuisti/__init__.py
+src/sihtimuisti/haar.py
+src/sihtimuisti/memory.py
+src/sihtimuisti/race.py
+src/sihtimuisti/scorer.py
+src/sihtimuisti/world.py
+src/sihtimuisti.egg-info/PKG-INFO
+src/sihtimuisti.egg-info/SOURCES.txt
+src/sihtimuisti.egg-info/dependency_links.txt
+src/sihtimuisti.egg-info/requires.txt
+src/sihtimuisti.egg-info/top_level.txt
+tests/test_core.py

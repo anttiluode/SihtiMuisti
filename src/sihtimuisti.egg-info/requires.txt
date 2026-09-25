@@ -1,0 +1,8 @@
+numpy>=1.24
+
+[demo]
+opencv-python
+pillow
+
+[test]
+pytest

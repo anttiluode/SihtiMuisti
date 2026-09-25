@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: sihtimuisti
+Version: 0.1.0
+Summary: Visual memory that fades by octave: Sihti residues vs keyframes, thumbnails and merging at equal budget
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: numpy>=1.24
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Provides-Extra: demo
+Requires-Dist: opencv-python; extra == "demo"
+Requires-Dist: pillow; extra == "demo"
+Dynamic: license-file

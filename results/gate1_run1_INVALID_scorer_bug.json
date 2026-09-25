@@ -1,0 +1,1234 @@
+{
+ "gate": "gate1_memory_race",
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "budgets_frames": [
+  8,
+  32
+ ],
+ "classification": "KILL_BEST_THUMBNAIL_MATCHES_OR_BEATS_FADE_RECALL",
+ "verdict": {
+  "8": {
+   "fade_recall": 0.80625,
+   "keyframes": 0.228125,
+   "best_thumbnail": "thumbnails_L3",
+   "best_thumbnail_acc": 0.84375,
+   "beats_both": false
+  },
+  "32": {
+   "fade_recall": 0.85625,
+   "keyframes": 0.58125,
+   "best_thumbnail": "thumbnails_L2",
+   "best_thumbnail_acc": 0.86875,
+   "beats_both": false
+  }
+ },
+ "summary": {
+  "full@all": {
+   "final_all": [
+    294,
+    320
+   ],
+   "final_hot": [
+    54,
+    60
+   ],
+   "final_cold": [
+    240,
+    260
+   ],
+   "final_moment": [
+    240,
+    240
+   ],
+   "final_object": [
+    54,
+    80
+   ],
+   "online_all": [
+    392,
+    457
+   ],
+   "object_period_2": [
+    19,
+    30
+   ],
+   "object_period_4": [
+    21,
+    30
+   ],
+   "object_period_8": [
+    14,
+    20
+   ],
+   "used_scalars_mean": 2458800.0,
+   "items_mean": 600.0,
+   "levels_total": [
+    3000,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "keyframes@8": {
+   "final_all": [
+    73,
+    320
+   ],
+   "final_hot": [
+    13,
+    60
+   ],
+   "final_cold": [
+    60,
+    260
+   ],
+   "final_moment": [
+    37,
+    240
+   ],
+   "final_object": [
+    36,
+    80
+   ],
+   "online_all": [
+    213,
+    457
+   ],
+   "object_period_2": [
+    12,
+    30
+   ],
+   "object_period_4": [
+    12,
+    30
+   ],
+   "object_period_8": [
+    12,
+    20
+   ],
+   "used_scalars_mean": 28686.0,
+   "items_mean": 7.0,
+   "levels_total": [
+    35,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "thumbnails_L1@8": {
+   "final_all": [
+    178,
+    320
+   ],
+   "final_hot": [
+    35,
+    60
+   ],
+   "final_cold": [
+    143,
+    260
+   ],
+   "final_moment": [
+    133,
+    240
+   ],
+   "final_object": [
+    45,
+    80
+   ],
+   "online_all": [
+    337,
+    457
+   ],
+   "object_period_2": [
+    10,
+    30
+   ],
+   "object_period_4": [
+    22,
+    30
+   ],
+   "object_period_8": [
+    13,
+    20
+   ],
+   "used_scalars_mean": 31806.0,
+   "items_mean": 31.0,
+   "levels_total": [
+    0,
+    155,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "thumbnails_L2@8": {
+   "final_all": [
+    261,
+    320
+   ],
+   "final_hot": [
+    50,
+    60
+   ],
+   "final_cold": [
+    211,
+    260
+   ],
+   "final_moment": [
+    222,
+    240
+   ],
+   "final_object": [
+    39,
+    80
+   ],
+   "online_all": [
+    335,
+    457
+   ],
+   "object_period_2": [
+    12,
+    30
+   ],
+   "object_period_4": [
+    14,
+    30
+   ],
+   "object_period_8": [
+    13,
+    20
+   ],
+   "used_scalars_mean": 32766.0,
+   "items_mean": 127.0,
+   "levels_total": [
+    0,
+    0,
+    635,
+    0,
+    0,
+    0
+   ]
+  },
+  "thumbnails_L3@8": {
+   "final_all": [
+    270,
+    320
+   ],
+   "final_hot": [
+    47,
+    60
+   ],
+   "final_cold": [
+    223,
+    260
+   ],
+   "final_moment": [
+    239,
+    240
+   ],
+   "final_object": [
+    31,
+    80
+   ],
+   "online_all": [
+    310,
+    457
+   ],
+   "object_period_2": [
+    11,
+    30
+   ],
+   "object_period_4": [
+    14,
+    30
+   ],
+   "object_period_8": [
+    6,
+    20
+   ],
+   "used_scalars_mean": 32736.0,
+   "items_mean": 496.0,
+   "levels_total": [
+    0,
+    0,
+    0,
+    2480,
+    0,
+    0
+   ]
+  },
+  "thumbnails_L4@8": {
+   "final_all": [
+    259,
+    320
+   ],
+   "final_hot": [
+    43,
+    60
+   ],
+   "final_cold": [
+    216,
+    260
+   ],
+   "final_moment": [
+    237,
+    240
+   ],
+   "final_object": [
+    22,
+    80
+   ],
+   "online_all": [
+    296,
+    457
+   ],
+   "object_period_2": [
+    8,
+    30
+   ],
+   "object_period_4": [
+    11,
+    30
+   ],
+   "object_period_8": [
+    3,
+    20
+   ],
+   "used_scalars_mean": 10800.0,
+   "items_mean": 600.0,
+   "levels_total": [
+    0,
+    0,
+    0,
+    0,
+    3000,
+    0
+   ]
+  },
+  "thumbnails_L5@8": {
+   "final_all": [
+    236,
+    320
+   ],
+   "final_hot": [
+    39,
+    60
+   ],
+   "final_cold": [
+    197,
+    260
+   ],
+   "final_moment": [
+    236,
+    240
+   ],
+   "final_object": [
+    0,
+    80
+   ],
+   "online_all": [
+    217,
+    457
+   ],
+   "object_period_2": [
+    0,
+    30
+   ],
+   "object_period_4": [
+    0,
+    30
+   ],
+   "object_period_8": [
+    0,
+    20
+   ],
+   "used_scalars_mean": 3600.0,
+   "items_mean": 600.0,
+   "levels_total": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3000
+   ]
+  },
+  "merge_any@8": {
+   "final_all": [
+    43,
+    320
+   ],
+   "final_hot": [
+    8,
+    60
+   ],
+   "final_cold": [
+    35,
+    260
+   ],
+   "final_moment": [
+    26,
+    240
+   ],
+   "final_object": [
+    17,
+    80
+   ],
+   "online_all": [
+    145,
+    457
+   ],
+   "object_period_2": [
+    7,
+    30
+   ],
+   "object_period_4": [
+    3,
+    30
+   ],
+   "object_period_8": [
+    7,
+    20
+   ],
+   "used_scalars_mean": 28686.0,
+   "items_mean": 7.0,
+   "levels_total": [
+    35,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "merge_adjacent@8": {
+   "final_all": [
+    58,
+    320
+   ],
+   "final_hot": [
+    11,
+    60
+   ],
+   "final_cold": [
+    47,
+    260
+   ],
+   "final_moment": [
+    41,
+    240
+   ],
+   "final_object": [
+    17,
+    80
+   ],
+   "online_all": [
+    148,
+    457
+   ],
+   "object_period_2": [
+    6,
+    30
+   ],
+   "object_period_4": [
+    5,
+    30
+   ],
+   "object_period_8": [
+    6,
+    20
+   ],
+   "used_scalars_mean": 28686.0,
+   "items_mean": 7.0,
+   "levels_total": [
+    35,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "fade@8": {
+   "final_all": [
+    254,
+    320
+   ],
+   "final_hot": [
+    43,
+    60
+   ],
+   "final_cold": [
+    211,
+    260
+   ],
+   "final_moment": [
+    237,
+    240
+   ],
+   "final_object": [
+    17,
+    80
+   ],
+   "online_all": [
+    304,
+    457
+   ],
+   "object_period_2": [
+    7,
+    30
+   ],
+   "object_period_4": [
+    7,
+    30
+   ],
+   "object_period_8": [
+    3,
+    20
+   ],
+   "used_scalars_mean": 32340.0,
+   "items_mean": 600.0,
+   "levels_total": [
+    25,
+    20,
+    50,
+    100,
+    200,
+    2605
+   ]
+  },
+  "fade_recall@8": {
+   "final_all": [
+    258,
+    320
+   ],
+   "final_hot": [
+    43,
+    60
+   ],
+   "final_cold": [
+    215,
+    260
+   ],
+   "final_moment": [
+    236,
+    240
+   ],
+   "final_object": [
+    22,
+    80
+   ],
+   "online_all": [
+    312,
+    457
+   ],
+   "object_period_2": [
+    7,
+    30
+   ],
+   "object_period_4": [
+    11,
+    30
+   ],
+   "object_period_8": [
+    4,
+    20
+   ],
+   "used_scalars_mean": 32450.4,
+   "items_mean": 600.0,
+   "levels_total": [
+    25,
+    20,
+    50,
+    104,
+    226,
+    2575
+   ]
+  },
+  "rd@8": {
+   "final_all": [
+    230,
+    320
+   ],
+   "final_hot": [
+    40,
+    60
+   ],
+   "final_cold": [
+    190,
+    260
+   ],
+   "final_moment": [
+    202,
+    240
+   ],
+   "final_object": [
+    28,
+    80
+   ],
+   "online_all": [
+    320,
+    457
+   ],
+   "object_period_2": [
+    11,
+    30
+   ],
+   "object_period_4": [
+    12,
+    30
+   ],
+   "object_period_8": [
+    5,
+    20
+   ],
+   "used_scalars_mean": 32590.8,
+   "items_mean": 57.4,
+   "levels_total": [
+    23,
+    50,
+    29,
+    141,
+    29,
+    15
+   ]
+  },
+  "rd_recall@8": {
+   "final_all": [
+    237,
+    320
+   ],
+   "final_hot": [
+    42,
+    60
+   ],
+   "final_cold": [
+    195,
+    260
+   ],
+   "final_moment": [
+    205,
+    240
+   ],
+   "final_object": [
+    32,
+    80
+   ],
+   "online_all": [
+    324,
+    457
+   ],
+   "object_period_2": [
+    11,
+    30
+   ],
+   "object_period_4": [
+    13,
+    30
+   ],
+   "object_period_8": [
+    8,
+    20
+   ],
+   "used_scalars_mean": 32649.6,
+   "items_mean": 60.4,
+   "levels_total": [
+    23,
+    51,
+    23,
+    152,
+    32,
+    21
+   ]
+  },
+  "keyframes@32": {
+   "final_all": [
+    186,
+    320
+   ],
+   "final_hot": [
+    37,
+    60
+   ],
+   "final_cold": [
+    149,
+    260
+   ],
+   "final_moment": [
+    133,
+    240
+   ],
+   "final_object": [
+    53,
+    80
+   ],
+   "online_all": [
+    350,
+    457
+   ],
+   "object_period_2": [
+    18,
+    30
+   ],
+   "object_period_4": [
+    22,
+    30
+   ],
+   "object_period_8": [
+    13,
+    20
+   ],
+   "used_scalars_mean": 127038.0,
+   "items_mean": 31.0,
+   "levels_total": [
+    155,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "thumbnails_L1@32": {
+   "final_all": [
+    270,
+    320
+   ],
+   "final_hot": [
+    52,
+    60
+   ],
+   "final_cold": [
+    218,
+    260
+   ],
+   "final_moment": [
+    223,
+    240
+   ],
+   "final_object": [
+    47,
+    80
+   ],
+   "online_all": [
+    375,
+    457
+   ],
+   "object_period_2": [
+    12,
+    30
+   ],
+   "object_period_4": [
+    21,
+    30
+   ],
+   "object_period_8": [
+    14,
+    20
+   ],
+   "used_scalars_mean": 130302.0,
+   "items_mean": 127.0,
+   "levels_total": [
+    0,
+    635,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "thumbnails_L2@32": {
+   "final_all": [
+    278,
+    320
+   ],
+   "final_hot": [
+    51,
+    60
+   ],
+   "final_cold": [
+    227,
+    260
+   ],
+   "final_moment": [
+    239,
+    240
+   ],
+   "final_object": [
+    39,
+    80
+   ],
+   "online_all": [
+    337,
+    457
+   ],
+   "object_period_2": [
+    12,
+    30
+   ],
+   "object_period_4": [
+    14,
+    30
+   ],
+   "object_period_8": [
+    13,
+    20
+   ],
+   "used_scalars_mean": 131064.0,
+   "items_mean": 508.0,
+   "levels_total": [
+    0,
+    0,
+    2540,
+    0,
+    0,
+    0
+   ]
+  },
+  "thumbnails_L3@32": {
+   "final_all": [
+    270,
+    320
+   ],
+   "final_hot": [
+    47,
+    60
+   ],
+   "final_cold": [
+    223,
+    260
+   ],
+   "final_moment": [
+    239,
+    240
+   ],
+   "final_object": [
+    31,
+    80
+   ],
+   "online_all": [
+    310,
+    457
+   ],
+   "object_period_2": [
+    11,
+    30
+   ],
+   "object_period_4": [
+    14,
+    30
+   ],
+   "object_period_8": [
+    6,
+    20
+   ],
+   "used_scalars_mean": 39600.0,
+   "items_mean": 600.0,
+   "levels_total": [
+    0,
+    0,
+    0,
+    3000,
+    0,
+    0
+   ]
+  },
+  "thumbnails_L4@32": {
+   "final_all": [
+    259,
+    320
+   ],
+   "final_hot": [
+    43,
+    60
+   ],
+   "final_cold": [
+    216,
+    260
+   ],
+   "final_moment": [
+    237,
+    240
+   ],
+   "final_object": [
+    22,
+    80
+   ],
+   "online_all": [
+    296,
+    457
+   ],
+   "object_period_2": [
+    8,
+    30
+   ],
+   "object_period_4": [
+    11,
+    30
+   ],
+   "object_period_8": [
+    3,
+    20
+   ],
+   "used_scalars_mean": 10800.0,
+   "items_mean": 600.0,
+   "levels_total": [
+    0,
+    0,
+    0,
+    0,
+    3000,
+    0
+   ]
+  },
+  "thumbnails_L5@32": {
+   "final_all": [
+    236,
+    320
+   ],
+   "final_hot": [
+    39,
+    60
+   ],
+   "final_cold": [
+    197,
+    260
+   ],
+   "final_moment": [
+    236,
+    240
+   ],
+   "final_object": [
+    0,
+    80
+   ],
+   "online_all": [
+    217,
+    457
+   ],
+   "object_period_2": [
+    0,
+    30
+   ],
+   "object_period_4": [
+    0,
+    30
+   ],
+   "object_period_8": [
+    0,
+    20
+   ],
+   "used_scalars_mean": 3600.0,
+   "items_mean": 600.0,
+   "levels_total": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3000
+   ]
+  },
+  "merge_any@32": {
+   "final_all": [
+    168,
+    320
+   ],
+   "final_hot": [
+    40,
+    60
+   ],
+   "final_cold": [
+    128,
+    260
+   ],
+   "final_moment": [
+    130,
+    240
+   ],
+   "final_object": [
+    38,
+    80
+   ],
+   "online_all": [
+    349,
+    457
+   ],
+   "object_period_2": [
+    13,
+    30
+   ],
+   "object_period_4": [
+    11,
+    30
+   ],
+   "object_period_8": [
+    14,
+    20
+   ],
+   "used_scalars_mean": 127038.0,
+   "items_mean": 31.0,
+   "levels_total": [
+    155,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "merge_adjacent@32": {
+   "final_all": [
+    184,
+    320
+   ],
+   "final_hot": [
+    42,
+    60
+   ],
+   "final_cold": [
+    142,
+    260
+   ],
+   "final_moment": [
+    149,
+    240
+   ],
+   "final_object": [
+    35,
+    80
+   ],
+   "online_all": [
+    351,
+    457
+   ],
+   "object_period_2": [
+    11,
+    30
+   ],
+   "object_period_4": [
+    13,
+    30
+   ],
+   "object_period_8": [
+    11,
+    20
+   ],
+   "used_scalars_mean": 127038.0,
+   "items_mean": 31.0,
+   "levels_total": [
+    155,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "fade@32": {
+   "final_all": [
+    266,
+    320
+   ],
+   "final_hot": [
+    47,
+    60
+   ],
+   "final_cold": [
+    219,
+    260
+   ],
+   "final_moment": [
+    238,
+    240
+   ],
+   "final_object": [
+    28,
+    80
+   ],
+   "online_all": [
+    333,
+    457
+   ],
+   "object_period_2": [
+    15,
+    30
+   ],
+   "object_period_4": [
+    7,
+    30
+   ],
+   "object_period_8": [
+    6,
+    20
+   ],
+   "used_scalars_mean": 130452.0,
+   "items_mean": 600.0,
+   "levels_total": [
+    105,
+    110,
+    220,
+    440,
+    880,
+    1245
+   ]
+  },
+  "fade_recall@32": {
+   "final_all": [
+    274,
+    320
+   ],
+   "final_hot": [
+    52,
+    60
+   ],
+   "final_cold": [
+    222,
+    260
+   ],
+   "final_moment": [
+    236,
+    240
+   ],
+   "final_object": [
+    38,
+    80
+   ],
+   "online_all": [
+    356,
+    457
+   ],
+   "object_period_2": [
+    15,
+    30
+   ],
+   "object_period_4": [
+    13,
+    30
+   ],
+   "object_period_8": [
+    10,
+    20
+   ],
+   "used_scalars_mean": 130195.2,
+   "items_mean": 600.0,
+   "levels_total": [
+    104,
+    107,
+    235,
+    471,
+    899,
+    1184
+   ]
+  },
+  "rd@32": {
+   "final_all": [
+    274,
+    320
+   ],
+   "final_hot": [
+    52,
+    60
+   ],
+   "final_cold": [
+    222,
+    260
+   ],
+   "final_moment": [
+    228,
+    240
+   ],
+   "final_object": [
+    46,
+    80
+   ],
+   "online_all": [
+    362,
+    457
+   ],
+   "object_period_2": [
+    17,
+    30
+   ],
+   "object_period_4": [
+    17,
+    30
+   ],
+   "object_period_8": [
+    12,
+    20
+   ],
+   "used_scalars_mean": 130903.2,
+   "items_mean": 68.4,
+   "levels_total": [
+    139,
+    72,
+    21,
+    78,
+    22,
+    10
+   ]
+  },
+  "rd_recall@32": {
+   "final_all": [
+    278,
+    320
+   ],
+   "final_hot": [
+    52,
+    60
+   ],
+   "final_cold": [
+    226,
+    260
+   ],
+   "final_moment": [
+    231,
+    240
+   ],
+   "final_object": [
+    47,
+    80
+   ],
+   "online_all": [
+    364,
+    457
+   ],
+   "object_period_2": [
+    17,
+    30
+   ],
+   "object_period_4": [
+    18,
+    30
+   ],
+   "object_period_8": [
+    12,
+    20
+   ],
+   "used_scalars_mean": 130933.2,
+   "items_mean": 74.6,
+   "levels_total": [
+    137,
+    78,
+    24,
+    99,
+    23,
+    12
+   ]
+  }
+ },
+ "prereg": "docs/prereg/gate1-memory-race.md"
+}
